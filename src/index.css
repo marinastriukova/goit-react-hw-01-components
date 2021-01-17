@@ -1,0 +1,166 @@
+body{
+  background-color: rgb(241, 239, 247);
+}
+
+/* profile */
+
+.profile{
+margin-left: auto;
+margin-right: auto;
+max-width: 400px;
+outline: 1px solid black;
+padding-top: 7px;
+margin-bottom: 10px;
+}
+
+.description{
+text-align: center;
+font-family: Roboto;
+}
+
+.avatar{
+  display: block;
+  width: 100%;
+}
+
+.name{
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0;
+  padding: 7px;
+}
+
+.tag, .location{
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(54, 54, 54);
+  margin: 0;
+  padding: 4px;
+}
+
+.stats{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  background-color: rgb(184, 165, 184);
+}
+
+.stats-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px solid black;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+  }
+
+.quantity{
+  padding: 4px;
+  font-weight: 600;
+}
+
+
+
+
+/* statistics */
+
+.statistics{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  outline: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 5px;
+}
+
+.stat-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.stat-item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  outline: 1px solid black;
+  background-color: rgb(173, 148, 233);
+  width: 100%;
+  padding: 5px;
+}
+
+
+/* friend-list */
+
+.friend-list{
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  outline: 1px solid black;
+  margin-bottom: 10px;
+}
+
+
+.friend-item{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  outline: 1px solid black;
+}
+
+.friend-avatar{
+  display: block;
+  width: 60px;
+}
+
+.status-online {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+.status-offline {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+
+  /* transaction-history */
+
+  .transaction-history{
+    padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  outline: 1px solid black;
+  margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+th{
+  background-color: rgb(160, 108, 134);
+  }
+
+td{
+    border-bottom: 1px solid grey;
+    background-color: rgb(207, 182, 195);
+  }
